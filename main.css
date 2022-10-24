@@ -1,0 +1,85 @@
+main {
+    background-color: #38d1aa;
+    width: 1206px;
+    height: 692px;
+}
+
+#left {
+    display: inline-block;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+
+#right {
+    display: inline-block;
+    text-align: center;
+    height: 592px;
+    width: 50%;
+    margin-left: 400px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "DejaVu Sans Mono", monospace;
+    font-weight: 800px;
+    letter-spacing: 20px;
+    font-size: 600%;
+    height: 70px;
+    -webkit-transform: scaleX(1.5);
+    -webkit-transform: scaleY(1.5);
+}
+
+.page p {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+h2 {
+    -webkit-transform: scaleX(1.5);
+    font-family: "Arial";
+    font-weight: bold;
+    letter-spacing: 20px;
+
+
+    font-size: 600%;
+    /* position: absolute; */
+    color: #f2f2f2;
+    /* left: 0px;
+    top: 10px;
+    z-index: -1; */
+}
+
+img[src*="./images/Screenshot 2022-10-24 102401.png"] {
+    width: 20rem;
+    height: 10rem;
+    padding: 12px;
+}
+
+button {
+
+    padding: 25px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 60%;
+    letter-spacing: 1px;
+    font-weight: bold;
+    background-color: #d54463;
+    color: #ffffff;
+}
+
+.menu p {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #b6bfbd;
+    line-height: 3;
+    padding: 12px;
+    border-bottom: 2px solid white;
+    transform: rotate(-5deg);
+}
